@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device=width initial-scale=1.0">
+        <title>Product API</title>
+
+        {{!-- custom css file --}}
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Company Products API</h1>
+        <ul>
+            <h2>
+                <li><a
+                        href="https://product-api-param.herokuapp.com/products">https://product-api-param.herokuapp.com/products</a>----view
+                    all products</li>
+            </h2>
+        
+            <h2>
+                <li><a
+                        href="https://product-api-param.herokuapp.com/products/id/:id">https://product-api-param.herokuapp.com/products/id/:id</a>----view
+                    all details of particular product</li>
+            </h2>
+        </ul>
+
+        <h2>Please use Postman for getting best responses</h2>
+        <p><strong>Fields: </strong>{ "id" : id, "name" : name, "price" : price, "desc" : description}</p>
+        <p><strong>eg- </strong> { "id" : 462, "name" : "RGB Keyboard", "price" : 2570, "desc" : "Electronic item"} </p>
+
+        <ul>
+            <li>Method POST - https://product-api-param.herokuapp.com/products</li>
+            <li>Method PUT - https://product-api-param.herokuapp.com/products/id/:id</li>
+            <li>Method PATCH - https://product-api-param.herokuapp.com/products/id/:id</li>
+            <li>Method DELETE - https://product-api-param.herokuapp.com/products/id/:id</li>
+        </ul>
+    </body>
+</html>
